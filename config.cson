@@ -1,0 +1,108 @@
+"*":
+  "atom-ide-ui":
+    use:
+      "atom-ide-diagnostics-ui": "never"
+  "atom-ternjs": {}
+  "autocomplete-plus": {}
+  "circle-ci":
+    apiToken: "0e5189a7ae4286c2e5733d3131aa5225bb04de7e"
+  "color-picker": {}
+  core:
+    disabledPackages: [
+      "atom-lint"
+      "term2"
+      "language-haml"
+      "terminal-status"
+      "terminal-panel"
+      "language-elm"
+      "linter-flow-plus"
+      "ide-haskell"
+      "haskell-ghc-mod"
+      "proto-repl"
+      "Parinfer"
+      "autocomplete-haskell"
+      "language-haskell"
+      "linter-clojure"
+      "react"
+      "vim-mode"
+      "linter-csslint"
+      "swackets"
+      "ide-flow"
+      "linter-flow"
+      "ide-typescript"
+      "autocomplete-flow"
+    ]
+    projectHome: "/Users/oguzbilgic/Code/"
+    telemetryConsent: "no"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    fontFamily: "Roboto Mono"
+    invisibles: {}
+    showInvisibles: true
+    softWrapHangingIndent: 2
+  "exception-reporting":
+    userId: "d6e66b56-c181-36ce-1c02-3a0acb99a427"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  "git-plus":
+    openInPane: false
+  "ide-flow":
+    flowPath: "/usr/local/bin/flow"
+  "ide-flowtype":
+    tryFlowBin: true
+  "ide-java": {}
+  jshint:
+    supportLintingJsx: true
+  linter: {}
+  "linter-clojure":
+    javaExecutablePath: "/usr/bin/java"
+  "linter-eslint": {}
+  "linter-flow": {}
+  "linter-ui-default":
+    panelHeight: 69
+    showPanel: true
+  metrics:
+    userId: "a600a432944ae0fc2326129f70db09b3305c2918"
+  minimap: {}
+  nuclide:
+    remoteProjectsConfig: []
+  "nuclide-flow":
+    diagnosticsOnFly: true
+  "one-dark-ui":
+    tabSizing: "Even"
+  "one-light-ui":
+    tabSizing: "Even"
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  parinfer:
+    "file-extensions": [
+      ".clj"
+      ".cljs"
+      ".cljc"
+    ]
+    "use-smart-mode?": true
+  react: {}
+  "status-bar": {}
+  term2: {}
+  "terminal-panel":
+    windowHeight: 10
+  "terminal-plus":
+    style:
+      animationSpeed: 2
+      fontFamily: "Fira Code"
+      fontSize: "13"
+      theme: "inverse"
+    toggles:
+      autoClose: true
+  "terminal-status": {}
+  "travis-ci-status": {}
+  "tree-view":
+    hideIgnoredNames: true
+  "vim-mode": {}
+  "vim-mode-plus": {}
+  welcome:
+    showOnStartup: false
